@@ -1,0 +1,11 @@
+segment,customer_count,avg_recency,avg_frequency,avg_monetary,total_revenue,revenue_pct
+About To Sleep,153,950.16,12.33,1915.59,293085.68,2.95
+Can't Lose Them,183,1081.8,29.09,7773.58,1422565.27,14.33
+Champions,310,585.54,27.86,8063.92,2499814.31,25.18
+Hibernating,209,1098.15,15.99,3021.54,631502.4,6.36
+Lost,24,1096.17,5.38,546.43,13114.38,0.13
+Loyal Customers,388,712.78,22.7,6553.89,2542911.08,25.61
+Needs Attention,231,947.59,24.0,6604.92,1525735.83,15.37
+Potential Loyalist,453,650.64,13.19,2160.76,978823.37,9.86
+Promising,17,784.24,4.41,433.97,7377.5,0.07
+Recent Users,32,602.62,3.94,457.8,14649.63,0.15
