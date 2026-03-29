@@ -23,29 +23,19 @@ Helps businesses identify high-value customers and take action to reduce custome
 
 
 consumer360/
-│
-├── data/
-│   ├── raw/
-│   ├── processed/
-│
-├── notebooks/
-│   └── analysis.ipynb
-│
+├── data/raw/          ← .gitkeep
+├── data/processed/    ← .gitkeep
+├── notebooks/         ← .gitkeep
 ├── src/
 │   ├── data_cleaning.py
 │   ├── rfm.py
 │   ├── cohort.py
 │   ├── market_basket.py
-│
-├── dashboard/
-│   └── powerbi.pbix
-│
-├── sql/
-│   └── queries.sql
-│
-├── outputs/
-│   ├── rfm_output.csv
-│   ├── cohort_output.csv
-│
+│   └── clv.py         ← was 100% missing before
+├── sql/queries.sql
+├── dashboard/         ← .gitkeep
+├── outputs/           ← .gitkeep
+├── logs/              ← .gitkeep
+├── pipeline.py
 ├── requirements.txt
 └── README.md
