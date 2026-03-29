@@ -7,11 +7,11 @@ from datetime import datetime
 # Add src to path
 sys.path.insert(0, os.path.join(os.path.dirname(__file__), "src"))
 
-import data_cleaning
-import rfm
-import cohort
-import market_basket
-import clv
+from src import data_cleaning
+from src import rfm
+from src import cohort
+from src import market_basket
+from src import clv
 
 LOG_DIR = "logs"
 os.makedirs(LOG_DIR, exist_ok=True)
@@ -38,13 +38,13 @@ STEPS = {
 
 def run_step(name: str) -> bool:
     label, fn = STEPS[name]
-    logger.info(f"▶  Starting: {label}")
+    logger.info(f"Starting: {label}")
     try:
         fn()
-        logger.info(f"✔  Completed: {label}")
+        logger.info(f" Completed: {label}")
         return True
     except Exception as e:
-        logger.error(f"✘  FAILED: {label} — {e}", exc_info=True)
+        logger.error(f" FAILED: {label} — {e}", exc_info=True)
         return False
 
 

@@ -25,7 +25,7 @@ def build_basket(df: pd.DataFrame) -> pd.DataFrame:
         .drop(columns=["order_id"])
     )
     # Convert quantities to boolean (bought or not)
-    basket_bool = basket.applymap(lambda x: x > 0)
+    basket_bool = basket > 0
     return basket_bool
 
 

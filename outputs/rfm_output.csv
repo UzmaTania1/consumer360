@@ -1,0 +1,201 @@
+customer_id,last_purchase_date,frequency,monetary,recency_days,r_score,f_score,m_score,rfm_score,segment,is_churn_risk,is_high_value
+C0001,2024-10-16,10,9796.46,76,2,3,4,234,Needs Attention,True,False
+C0002,2024-08-30,9,5119.16,123,1,2,2,122,About To Sleep,True,False
+C0003,2024-04-30,11,8359.06,245,1,3,3,133,About To Sleep,True,False
+C0004,2024-12-21,10,4881.85,10,5,3,1,531,Loyal Customers,False,True
+C0005,2024-11-25,7,3324.5,36,4,1,1,411,Recent Users,False,False
+C0006,2024-12-07,7,5631.95,24,4,1,2,412,Recent Users,False,False
+C0007,2024-10-02,12,10630.84,90,2,4,5,245,Can't Lose Them,True,False
+C0008,2024-10-11,6,4402.99,81,2,1,1,211,Hibernating,False,False
+C0009,2024-11-10,8,5555.25,51,3,2,2,322,Promising,False,False
+C0010,2024-12-12,16,12966.62,19,5,5,5,555,Champions,False,True
+C0011,2024-11-15,9,4864.35,46,3,2,1,321,Promising,False,False
+C0012,2024-12-18,16,12404.76,13,5,5,5,555,Champions,False,True
+C0013,2024-11-24,9,5025.63,37,3,2,2,322,Promising,False,False
+C0014,2024-11-07,10,9994.68,54,3,3,4,334,Potential Loyalist,False,False
+C0015,2023-07-24,5,4148.32,526,1,1,1,111,Lost,True,False
+C0016,2024-08-27,7,3852.72,126,1,1,1,111,Lost,True,False
+C0017,2024-11-04,8,9739.28,57,3,2,4,324,Promising,False,False
+C0018,2024-12-15,11,8245.27,16,5,3,3,533,Loyal Customers,False,True
+C0019,2024-12-06,7,4296.52,25,4,1,1,411,Recent Users,False,False
+C0020,2024-06-10,6,6530.5,204,1,1,3,113,Lost,True,False
+C0021,2024-10-26,10,7980.82,66,2,3,3,233,Needs Attention,True,False
+C0022,2024-05-26,10,9032.55,219,1,3,4,134,About To Sleep,True,False
+C0023,2024-12-26,13,9974.16,5,5,4,4,544,Champions,False,True
+C0024,2024-12-21,13,10465.37,10,5,4,5,545,Champions,False,True
+C0025,2024-09-01,6,3128.07,121,1,1,1,111,Lost,True,False
+C0026,2024-10-03,12,10744.97,89,2,4,5,245,Can't Lose Them,True,False
+C0027,2024-11-25,15,12353.22,36,4,5,5,455,Champions,False,True
+C0028,2024-12-16,7,6169.29,15,5,1,2,512,Recent Users,False,False
+C0029,2024-09-20,7,5576.38,102,2,1,2,212,Hibernating,False,False
+C0030,2024-11-01,11,9105.2,60,3,3,4,334,Potential Loyalist,False,False
+C0031,2024-05-24,7,4071.6,221,1,1,1,111,Lost,True,False
+C0032,2024-11-28,14,12097.35,33,4,5,5,455,Champions,False,True
+C0033,2024-12-01,12,6746.48,30,4,4,3,443,Loyal Customers,False,True
+C0034,2024-12-20,9,9841.96,11,5,3,4,534,Loyal Customers,False,True
+C0035,2024-10-07,10,9101.91,85,2,3,4,234,Needs Attention,True,False
+C0036,2024-12-31,12,10538.75,0,5,4,5,545,Champions,False,True
+C0037,2024-12-29,13,9085.49,2,5,4,4,544,Champions,False,True
+C0038,2024-12-29,7,4125.48,2,5,1,1,511,Recent Users,False,False
+C0039,2024-11-02,7,4327.65,59,3,1,1,311,Promising,False,False
+C0040,2024-12-20,8,6846.98,11,5,2,3,523,Potential Loyalist,False,False
+C0041,2024-12-03,9,8725.61,28,4,3,4,434,Potential Loyalist,False,False
+C0042,2024-08-18,7,2801.72,135,1,1,1,111,Lost,True,False
+C0043,2024-05-19,13,9245.33,226,1,4,4,144,Can't Lose Them,True,False
+C0044,2024-11-02,7,5034.1,59,3,1,2,312,Promising,False,False
+C0045,2024-12-31,11,10276.18,0,5,3,4,534,Loyal Customers,False,True
+C0046,2024-12-28,12,10502.74,3,5,4,5,545,Champions,False,True
+C0047,2024-11-26,7,5744.7,35,4,1,2,412,Recent Users,False,False
+C0048,2024-11-29,5,4422.0,32,4,1,1,411,Recent Users,False,False
+C0049,2024-11-26,7,6568.15,35,4,1,3,413,Recent Users,False,False
+C0050,2024-09-12,8,6500.5,110,2,2,2,222,Hibernating,False,False
+C0051,2024-11-24,14,6507.69,37,3,5,2,352,Loyal Customers,False,True
+C0052,2024-12-07,14,10280.45,24,4,5,4,454,Champions,False,True
+C0053,2024-11-28,8,4929.41,33,4,2,2,422,Potential Loyalist,False,False
+C0054,2024-08-23,10,8331.82,130,1,3,3,133,About To Sleep,True,False
+C0055,2024-11-16,9,3942.2,45,3,3,1,331,Potential Loyalist,False,False
+C0056,2024-08-20,10,10168.05,133,1,3,4,134,About To Sleep,True,False
+C0057,2024-10-25,12,9023.21,67,2,4,4,244,Can't Lose Them,True,False
+C0058,2024-10-25,9,7371.88,67,2,3,3,233,Needs Attention,True,False
+C0059,2024-02-28,3,2429.97,307,1,1,1,111,Lost,True,False
+C0060,2024-05-20,11,4411.29,225,1,3,1,131,About To Sleep,True,False
+C0061,2024-12-16,9,4253.37,15,5,3,1,531,Loyal Customers,False,True
+C0062,2024-09-20,9,8477.32,102,2,3,4,234,Needs Attention,True,False
+C0063,2024-12-14,14,7338.09,17,5,5,3,553,Champions,False,True
+C0064,2024-12-25,6,5859.31,6,5,1,2,512,Recent Users,False,False
+C0065,2024-11-27,11,9805.02,34,4,3,4,434,Potential Loyalist,False,False
+C0066,2024-10-21,7,4377.66,71,2,1,1,211,Hibernating,False,False
+C0067,2024-12-18,16,10900.36,13,5,5,5,555,Champions,False,True
+C0068,2024-10-02,5,5784.21,90,2,1,2,212,Hibernating,False,False
+C0069,2024-08-18,8,8552.01,135,1,2,4,124,About To Sleep,True,False
+C0070,2024-06-20,10,4123.16,194,1,3,1,131,About To Sleep,True,False
+C0071,2024-06-26,17,10665.06,188,1,5,5,155,Can't Lose Them,True,False
+C0072,2024-11-05,7,6974.76,56,3,1,3,313,Promising,False,False
+C0073,2024-12-20,12,7123.97,11,5,4,3,543,Champions,False,True
+C0074,2024-11-09,11,10683.18,52,3,3,5,335,Potential Loyalist,False,False
+C0075,2024-11-15,8,3860.97,46,3,2,1,321,Promising,False,False
+C0076,2024-10-23,7,6455.74,69,2,1,2,212,Hibernating,False,False
+C0077,2024-11-06,9,5603.23,55,3,3,2,332,Potential Loyalist,False,False
+C0078,2024-09-17,15,9510.67,105,2,5,4,254,Can't Lose Them,True,False
+C0079,2024-12-05,7,5820.36,26,4,1,2,412,Recent Users,False,False
+C0080,2024-12-27,11,7456.12,4,5,4,3,543,Champions,False,True
+C0081,2024-12-29,13,11448.18,2,5,4,5,545,Champions,False,True
+C0082,2024-12-27,12,12913.35,4,5,4,5,545,Champions,False,True
+C0083,2024-12-30,14,10661.6,1,5,5,5,555,Champions,False,True
+C0084,2024-06-12,9,6084.28,202,1,3,2,132,About To Sleep,True,False
+C0085,2024-12-08,11,8376.12,23,4,4,4,444,Loyal Customers,False,True
+C0086,2024-09-27,9,9506.65,95,2,3,4,234,Needs Attention,True,False
+C0087,2024-11-26,12,12858.45,35,4,4,5,445,Loyal Customers,False,True
+C0088,2024-10-12,7,5992.01,80,2,1,2,212,Hibernating,False,False
+C0089,2024-08-24,8,6333.45,129,1,2,2,122,About To Sleep,True,False
+C0090,2024-12-26,15,14519.73,5,5,5,5,555,Champions,False,True
+C0091,2024-10-10,8,7331.3,82,2,2,3,223,Hibernating,False,False
+C0092,2024-12-27,9,5729.56,4,5,3,2,532,Loyal Customers,False,True
+C0093,2024-12-10,7,3872.76,21,4,1,1,411,Recent Users,False,False
+C0094,2024-04-14,8,3209.13,261,1,2,1,121,About To Sleep,True,False
+C0095,2024-11-19,13,12074.72,42,3,4,5,345,Needs Attention,True,False
+C0096,2024-08-10,9,5909.21,143,1,3,2,132,About To Sleep,True,False
+C0097,2024-09-23,8,4387.93,99,2,2,1,221,Hibernating,False,False
+C0098,2024-06-17,12,10069.59,197,1,4,4,144,Can't Lose Them,True,False
+C0099,2024-12-07,15,12783.76,24,4,5,5,455,Champions,False,True
+C0100,2024-11-25,8,9031.44,36,4,2,4,424,Potential Loyalist,False,False
+C0101,2024-10-02,7,5750.85,90,2,2,2,222,Hibernating,False,False
+C0102,2024-10-02,11,10806.39,90,2,4,5,245,Can't Lose Them,True,False
+C0103,2024-11-28,6,3144.76,33,4,1,1,411,Recent Users,False,False
+C0104,2024-12-09,7,6808.54,22,4,2,3,423,Potential Loyalist,False,False
+C0105,2024-10-29,8,7005.88,63,2,2,3,223,Hibernating,False,False
+C0106,2024-12-04,15,9908.03,27,4,5,4,454,Champions,False,True
+C0107,2024-11-29,8,8806.96,32,4,2,4,424,Potential Loyalist,False,False
+C0108,2024-11-11,4,4501.03,50,3,1,1,311,Promising,False,False
+C0109,2024-12-08,13,11918.38,23,4,5,5,455,Champions,False,True
+C0110,2024-10-02,10,8916.01,90,2,3,4,234,Needs Attention,True,False
+C0111,2024-10-28,7,3192.7,64,2,2,1,221,Hibernating,False,False
+C0112,2024-10-29,8,2903.04,63,2,2,1,221,Hibernating,False,False
+C0113,2024-11-03,8,9174.33,58,3,2,4,324,Promising,False,False
+C0114,2024-10-22,9,4116.15,70,2,3,1,231,Needs Attention,True,False
+C0115,2024-09-22,8,5926.81,100,2,2,2,222,Hibernating,False,False
+C0116,2024-10-16,12,6620.82,76,2,4,3,243,Can't Lose Them,True,False
+C0117,2024-11-28,13,8859.57,33,4,5,4,454,Champions,False,True
+C0118,2024-11-05,12,8023.8,56,3,4,3,343,Needs Attention,True,False
+C0119,2024-12-26,11,8446.5,5,5,4,4,544,Champions,False,True
+C0120,2024-12-27,10,5726.11,4,5,3,2,532,Loyal Customers,False,True
+C0121,2024-10-07,11,7049.16,85,2,4,3,243,Can't Lose Them,True,False
+C0122,2024-11-05,6,3985.6,56,3,1,1,311,Promising,False,False
+C0123,2024-11-08,7,4513.75,53,3,2,1,321,Promising,False,False
+C0124,2024-10-15,16,11499.36,77,2,5,5,255,Can't Lose Them,True,False
+C0125,2024-12-24,14,9811.46,7,5,5,4,554,Champions,False,True
+C0126,2024-12-12,10,6520.72,19,5,3,2,532,Loyal Customers,False,True
+C0127,2024-10-22,13,11007.87,70,2,5,5,255,Can't Lose Them,True,False
+C0128,2024-10-13,8,8999.65,79,2,2,4,224,Hibernating,False,False
+C0129,2024-11-20,13,7937.65,41,3,5,3,353,Loyal Customers,False,True
+C0130,2024-10-30,13,7741.62,62,3,5,3,353,Loyal Customers,False,True
+C0131,2024-07-19,9,6318.09,165,1,3,2,132,About To Sleep,True,False
+C0132,2024-11-10,11,9335.85,51,3,4,4,344,Needs Attention,True,False
+C0133,2024-11-05,9,9548.02,56,3,3,4,334,Potential Loyalist,False,False
+C0134,2024-12-02,8,4190.27,29,4,2,1,421,Potential Loyalist,False,False
+C0135,2024-06-16,6,4232.03,198,1,1,1,111,Lost,True,False
+C0136,2024-12-01,9,13355.38,30,4,3,5,435,Potential Loyalist,False,False
+C0137,2024-11-05,11,6494.12,56,3,4,2,342,Needs Attention,True,False
+C0138,2024-12-06,10,7809.48,25,4,3,3,433,Potential Loyalist,False,False
+C0139,2024-12-11,14,7097.54,20,4,5,3,453,Champions,False,True
+C0140,2024-11-30,15,12690.42,31,4,5,5,455,Champions,False,True
+C0141,2024-07-09,11,6381.35,175,1,4,2,142,Can't Lose Them,True,False
+C0142,2024-12-23,13,10354.66,8,5,5,5,555,Champions,False,True
+C0143,2024-11-07,7,6334.18,54,3,2,2,322,Promising,False,False
+C0144,2024-04-19,8,5832.49,256,1,2,2,122,About To Sleep,True,False
+C0145,2024-11-04,7,8871.91,57,3,2,4,324,Promising,False,False
+C0146,2024-11-21,18,15572.33,40,3,5,5,355,Loyal Customers,False,True
+C0147,2024-11-16,14,11247.6,45,3,5,5,355,Loyal Customers,False,True
+C0148,2024-12-02,10,8265.16,29,4,3,3,433,Potential Loyalist,False,False
+C0149,2024-07-09,4,1494.12,175,1,1,1,111,Lost,True,False
+C0150,2024-05-15,6,6004.87,230,1,1,2,112,Lost,True,False
+C0151,2024-11-22,10,4934.92,39,3,3,2,332,Potential Loyalist,False,False
+C0152,2024-11-12,11,7154.81,49,3,4,3,343,Needs Attention,True,False
+C0153,2024-11-03,11,6579.38,58,3,4,3,343,Needs Attention,True,False
+C0154,2024-11-19,11,7899.83,42,3,4,3,343,Needs Attention,True,False
+C0155,2024-10-23,15,12862.39,69,2,5,5,255,Can't Lose Them,True,False
+C0156,2024-12-10,13,10345.1,21,4,5,5,455,Champions,False,True
+C0157,2024-12-09,9,8525.61,22,4,3,4,434,Potential Loyalist,False,False
+C0158,2024-12-07,13,12094.9,24,4,5,5,455,Champions,False,True
+C0159,2024-12-25,14,13632.35,6,5,5,5,555,Champions,False,True
+C0160,2024-09-30,5,1737.78,92,2,1,1,211,Hibernating,False,False
+C0161,2024-12-21,12,7941.23,10,5,4,3,543,Champions,False,True
+C0162,2024-12-06,8,5278.29,25,4,2,2,422,Potential Loyalist,False,False
+C0163,2024-09-10,11,8239.89,112,1,4,3,143,Can't Lose Them,True,False
+C0164,2024-12-12,7,7298.18,19,5,2,3,523,Potential Loyalist,False,False
+C0165,2024-07-29,7,6057.55,155,1,2,2,122,About To Sleep,True,False
+C0166,2024-11-24,19,13853.45,37,3,5,5,355,Loyal Customers,False,True
+C0167,2024-06-28,8,8372.08,186,1,2,3,123,About To Sleep,True,False
+C0168,2024-12-02,17,10555.54,29,4,5,5,455,Champions,False,True
+C0169,2024-12-11,17,10910.29,20,4,5,5,455,Champions,False,True
+C0170,2024-10-24,14,8353.29,68,2,5,3,253,Can't Lose Them,True,False
+C0171,2024-12-15,14,11106.15,16,5,5,5,555,Champions,False,True
+C0172,2024-11-04,7,5974.92,57,3,2,2,322,Promising,False,False
+C0173,2024-07-15,5,4330.88,169,1,1,1,111,Lost,True,False
+C0174,2024-11-25,8,5980.29,36,4,2,2,422,Potential Loyalist,False,False
+C0175,2024-12-23,8,6561.14,8,5,2,3,523,Potential Loyalist,False,False
+C0176,2024-12-15,14,6838.03,16,5,5,3,553,Champions,False,True
+C0177,2024-06-11,5,2995.85,203,1,1,1,111,Lost,True,False
+C0178,2024-10-01,12,7544.55,91,2,4,3,243,Can't Lose Them,True,False
+C0179,2024-09-24,15,7441.14,98,2,5,3,253,Can't Lose Them,True,False
+C0180,2024-12-02,12,12566.98,29,4,4,5,445,Loyal Customers,False,True
+C0181,2024-11-23,11,5989.79,38,3,4,2,342,Needs Attention,True,False
+C0182,2024-06-28,10,8637.58,186,1,3,4,134,About To Sleep,True,False
+C0183,2024-05-28,13,11944.47,217,1,5,5,155,Can't Lose Them,True,False
+C0184,2024-04-30,4,1929.99,245,1,1,1,111,Lost,True,False
+C0185,2024-09-12,6,3888.66,110,2,1,1,211,Hibernating,False,False
+C0186,2024-12-31,13,12954.14,0,5,5,5,555,Champions,False,True
+C0187,2024-12-09,15,8550.45,22,4,5,4,454,Champions,False,True
+C0188,2024-05-31,11,7731.41,214,1,4,3,143,Can't Lose Them,True,False
+C0189,2024-11-25,6,5315.46,36,4,1,2,412,Recent Users,False,False
+C0190,2024-12-17,11,12113.4,14,5,4,5,545,Champions,False,True
+C0191,2024-09-08,9,8906.4,114,1,3,4,134,About To Sleep,True,False
+C0192,2024-11-26,11,7384.85,35,4,4,3,443,Loyal Customers,False,True
+C0193,2024-12-21,7,5586.99,10,5,2,2,522,Potential Loyalist,False,False
+C0194,2024-08-10,11,8787.13,143,1,4,4,144,Can't Lose Them,True,False
+C0195,2024-10-10,5,2931.82,82,2,1,1,211,Hibernating,False,False
+C0196,2024-12-31,12,8555.29,0,5,4,4,544,Champions,False,True
+C0197,2024-10-15,8,4021.63,77,2,2,1,221,Hibernating,False,False
+C0198,2024-11-22,12,8262.42,39,3,4,3,343,Needs Attention,True,False
+C0199,2024-11-10,8,8211.71,51,3,2,3,323,Promising,False,False
+C0200,2024-08-22,8,5881.58,131,1,2,2,122,About To Sleep,True,False
