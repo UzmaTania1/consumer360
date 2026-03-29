@@ -161,4 +161,45 @@ Set **scheduled refresh** in Power BI Service to weekly (Monday morning, after p
 | Visualisation | Power BI |
 
 
+## 📊 Live Dashboard
 
+🔗 https://public.tableau.com/views/consumer360/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+
+The dashboard includes:
+- RFM Customer Segment Treemap
+- Churn Risk Customer Table
+- Monthly Cohort Retention Heatmap
+- Market Basket Product Associations
+- Top 20 Customers by Predicted CLV
+```
+
+Commit it.
+
+---
+
+## Step 2: Add a screenshot of the dashboard to your repo
+
+1. Take a screenshot of your Tableau dashboard
+2. On GitHub click **Add file → Upload files**
+3. Create path `dashboard/consumer360_dashboard.png`
+4. Upload the screenshot
+5. Commit
+
+---
+
+## Step 3: Update your local folder
+```
+git pull origin main
+```
+
+---
+
+## Step 4: Save the Tableau workbook file locally
+1. In Tableau Public → **File → Export Packaged Workbook**
+2. Save it as `consumer360.twbx`
+3. Put it in your `dashboard/` folder
+4. Then push to GitHub:
+```
+git add dashboard/
+git commit -m "Add Tableau dashboard workbook and screenshot"
+git push origin main
