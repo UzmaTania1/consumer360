@@ -49,8 +49,8 @@ consumer360/
 pip install -r requirements.txt
 ```
 
-### 2. Add your data
-Place your raw transactions CSV in `data/raw/transactions.csv`.
+### 2. Added data
+Placed raw transactions CSV in `data/raw/transactions.csv`.
 
 **Required columns:**
 | Column | Type | Description |
