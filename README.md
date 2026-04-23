@@ -1,6 +1,10 @@
 # consumer360-customer-segmentation
-End-to-end Customer Segmentation &amp; CLV Engine using RFM Analysis, Cohort Analysis, and Market Basket Analysis with automated data pipeline and Power BI dashboard.
+
+End-to-end Customer Segmentation & CLV Engine using RFM Analysis, Cohort Analysis, and Market Basket Analysis with automated data pipeline and Tableau dashboard.
+
 This project analyzes customer behavior using RFM (Recency, Frequency, Monetary) analysis to segment customers into different groups like Champions, At Risk, and Hibernating.
+
+---
 
 ## 📁 Project Structure
 
@@ -22,10 +26,10 @@ consumer360/
 │   └── clv.py                  # BG/NBD + Gamma-Gamma CLV prediction
 │
 ├── sql/
-│   └── queries.sql             # SQL views for extraction & cohort (MySQL/PostgreSQL)
+│   └── week1_schema_and_cleaning.sql   # SQL views for extraction & cohort (MySQL/PostgreSQL)
 │
 ├── dashboard/
-│   └── powerbi.pbix            # Power BI dashboard (connect to outputs/)
+│   └── consumer360.twbx        # Tableau dashboard (connect to outputs/)
 │
 ├── outputs/
 │   ├── rfm_output.csv          # RFM scores + segment per customer
@@ -49,8 +53,8 @@ consumer360/
 pip install -r requirements.txt
 ```
 
-### 2. Added data
-Placed raw transactions CSV in `data/raw/transactions.csv`.
+### 2. Add data
+Place your raw transactions CSV in `data/raw/transactions.csv`.
 
 **Required columns:**
 | Column | Type | Description |
@@ -73,6 +77,7 @@ python pipeline.py
 
 ### 4. Run a single step
 ```bash
+python pipeline.py --step clean
 python pipeline.py --step rfm
 python pipeline.py --step cohort
 python pipeline.py --step basket
@@ -105,7 +110,7 @@ Customers are scored 1–5 on Recency, Frequency, and Monetary value, then mappe
 | ❌ Lost | Lowest R+F scores | Suppression list |
 | 💰 Price Sensitive | High frequency, low spend | Bundle offers |
 
-**Churn Risk flag** (`is_churn_risk = True`): Can't Lose Them, Needs Attention, About To Sleep, Lost  
+**Churn Risk flag** (`is_churn_risk = True`): Can't Lose Them, Needs Attention, About To Sleep, Lost
 **High Value flag** (`is_high_value = True`): Champions, Loyal Customers
 
 ### Cohort Analysis
@@ -116,6 +121,8 @@ Uses the Apriori algorithm to find product association rules. Example output:
 ```
 Bread → Butter   |  support: 0.12  |  confidence: 0.65  |  lift: 2.3
 ```
+
+> **Note:** Association rule strength depends heavily on data volume and variety. Results from synthetic or small datasets will show low lift values — this improves significantly with real transaction data.
 
 ### Predictive CLV (Customer Lifetime Value)
 Uses the **BG/NBD model** (purchase frequency prediction) combined with the **Gamma-Gamma model** (spend prediction) from the `lifetimes` library to estimate expected revenue per customer over the next 12 months.
@@ -133,19 +140,20 @@ Schedule `pipeline.py` to run weekly:
 
 **Windows Task Scheduler:** Point to `pipeline.py`, run every Monday at 6 AM.
 
-**GitHub Actions:** See `.github/workflows/weekly_pipeline.yml` (add your data source credentials as secrets).
+**GitHub Actions:** A workflow file is included at `.github/workflows/weekly_pipeline.yml`. Add your data source credentials as repository secrets before enabling.
 
 ---
 
-## 📈 Power BI Dashboard
+## 📈 Tableau Dashboard
 
-Connect Power BI Desktop to the `outputs/` folder CSVs:
+Open `dashboard/consumer360.twbx` in Tableau Desktop, or connect Tableau to the `outputs/` folder CSVs directly:
+
 1. `rfm_output.csv` → RFM segment treemap + churn risk table
 2. `cohort_pivot.csv` → Retention heatmap
 3. `association_rules.csv` → Market basket rules table
 4. `clv_output.csv` → CLV distribution + top customer leaderboard
 
-Set **scheduled refresh** in Power BI Service to weekly (Monday morning, after pipeline runs).
+For automated refresh, publish the workbook to Tableau Server or Tableau Cloud and set a weekly extract refresh schedule (Monday morning, after the pipeline runs).
 
 ---
 
@@ -158,12 +166,13 @@ Set **scheduled refresh** in Power BI Service to weekly (Monday morning, after p
 | RFM & Cohort | Python / Pandas |
 | Market Basket | mlxtend (Apriori) |
 | CLV Prediction | lifetimes (BG/NBD + Gamma-Gamma) |
-| Visualisation | Power BI |
+| Visualisation | Tableau |
 
+---
 
 ## 📊 Live Dashboard
 
-🔗 https://public.tableau.com/views/consumer360/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link
+🔗 [View on Tableau Public](https://public.tableau.com/views/consumer360/Dashboard1?:language=en-US&:sid=&:redirect=auth&:display_count=n&:origin=viz_share_link)
 
 The dashboard includes:
 - RFM Customer Segment Treemap
@@ -171,35 +180,3 @@ The dashboard includes:
 - Monthly Cohort Retention Heatmap
 - Market Basket Product Associations
 - Top 20 Customers by Predicted CLV
-```
-
-Commit it.
-
----
-
-## Step 2: Add a screenshot of the dashboard to your repo
-
-1. Take a screenshot of your Tableau dashboard
-2. On GitHub click **Add file → Upload files**
-3. Create path `dashboard/consumer360_dashboard.png`
-4. Upload the screenshot
-5. Commit
-
----
-
-## Step 3: Update your local folder
-```
-git pull origin main
-```
-
----
-
-## Step 4: Save the Tableau workbook file locally
-1. In Tableau Public → **File → Export Packaged Workbook**
-2. Save it as `consumer360.twbx`
-3. Put it in your `dashboard/` folder
-4. Then push to GitHub:
-```
-git add dashboard/
-git commit -m "Add Tableau dashboard workbook and screenshot"
-git push origin main
