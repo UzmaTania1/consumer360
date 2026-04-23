@@ -6,7 +6,7 @@ def run():
     output_path = "data/processed/clean_transactions.csv"
 
     # Load data
-    df = pd.read_csv(input_path)
+    df = pd.read_csv(input_path, parse_dates=["order_date"])
     print(f"[load] {len(df):,} rows loaded from {input_path}")
 
     # Basic cleaning
