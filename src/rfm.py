@@ -32,6 +32,9 @@ SEGMENT_MAP = {
     (1, 3): "About To Sleep",
     (1, 2): "About To Sleep",
     (1, 1): "Lost",
+    (2, 1): "Hibernating",
+    (3, 4): "Price Sensitive",
+    (3, 5): "Loyal Customers",
 }
 
 # Churn-risk segments (used to drive retention campaigns)
