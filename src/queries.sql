@@ -1,1 +1,2 @@
 
+rm src/queries.sql
